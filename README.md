@@ -1,10 +1,12 @@
 ## My Python Learnings:
 
 ### All Codes developed .py
-  #### 1. NPL class-project 
+  #### 1. NPL class-project: Generate and analyze text from webscrapped words from wikipedia (WorldCom Project)
 
 ### Notebooks
+  #### Python_WorldCom
 
-### Ideas 
+### New_Codes related to NPL 
 
 ### Projects
+  #### WorldCom Class Project
