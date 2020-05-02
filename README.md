@@ -1,6 +1,6 @@
 ## My Python Learnings:
 
-### All Codes developed
+### All Codes developed .py
 
 ### Notebooks
 
