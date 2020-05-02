@@ -1,11 +1,9 @@
-## pythonlearning
+## My Python Learnings:
 
-- To learn python:
+### All Codes developed
 
---All Codes developed
+### Notebooks
 
----Notebooks
+### Ideas 
 
---Ideas 
-
---Projects
+### Projects
