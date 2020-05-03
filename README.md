@@ -10,6 +10,6 @@
 
 ### Projects Descriptions
   #### 1.2. NPL: 
-    - Instructions: WorlCom Project porposal and Code Explanation
+    - Program_Instructions: WorlCom Project porposal and Code Explanation
     
 ### Articles and books
