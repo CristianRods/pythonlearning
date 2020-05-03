@@ -1,7 +1,7 @@
 ## My Python Learnings:
 
 ### Projects.py
-  #### 1. NPL: Generate and analyze text from webscrapped words from wikipedia (WorldCom Project)
+  #### 1. NPL: WorldCom CodeFiles (WorldCom Project all .py)
 
 ### Notebooks
   #### 1.1. NPL: Python_WorldCom.ipynb
