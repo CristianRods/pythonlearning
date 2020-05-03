@@ -4,10 +4,10 @@
   #### 1. NPL class-project: Generate and analyze text from webscrapped words from wikipedia (WorldCom Project)
 
 ### Notebooks
-  #### Python_WorldCom
+  #### 1.1 Python_WorldCom
 
 ### New_Codes related to NPL 
 
 ### Projects
-  #### WorldCom Class Project
+  #### 1.1. WorldCom Class Project
     -Instructions
