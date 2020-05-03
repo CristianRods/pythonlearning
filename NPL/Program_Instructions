@@ -1,8 +1,7 @@
 WorldCom Project:
 
-Para ejecutar correctamente todos los programas es necesario tener instalados las siguientes librerías en Python
-y/o el interprete que se utilice, tal como Anaconda (Spider, Jupyter) o Pycharm. 
-Estas librerías son:
+In order to execute all these little programs you will need next libraries:
+(needed in your environment using Anaconda or using PIP in your system)
 -	random
 -	numpy
 -	datetime
@@ -11,72 +10,80 @@ Estas librerías son:
 -	matplotlib
 -	csv
 -	requests
--	lxml (para usuarios macOS, se necesita instalar)
--	beautifulsoup4 o bs4 (en algunos casos es lo mismo).
--	nltk (Una vez instalada esta librería es necesario descargar también las ‘stop_words’ de “spanish” para guardarnos las de español, pero lo hacemos dentro de la función que lo utiliza).
--	stop-words  (en caso de que la librería nltk no funcione tenemos esta librería para la limpieza de palabras “inútiles”).
+-	lxml (To macOS you will need to install it)
+-	beautifulsoup4 o bs4.
+-	nltk (Once you installed the library, install package ‘stop_words’ de “spanish” or "english" depends on the language you are working on to save the unrelevant words).
+-	stop-words  (bs4 package to generate the unuseful words).
 -	mrjob
-Para instalarlas se puede utilizar el módulo Pip, por ejemplo:
--	 Pip install “librería”
-Dentro de cada función se importan los módulos necesarios para trabajar.
--	Los siguientes ficheros NO se ejecutan desde la consola:
+
+Installation:
+Outside Python from cmd or Command line Terminal (Linux/Mac users): 
+
+>> Pip3 install “library”
+
+Programs:
+Inside any function or .py file there is a chunk which imports the libraries needed.
+-	Next file doesn't bring any result when are running from console or Terminal:
 
 o	A11_generafechacall.py
 o	A12_generahoracall.py
 o	A13_duracion_llamada.py
 
+-	Next files give a result where are running from console or Terminal.
 
--	Los siguientes ficheros SI se pueden ejecutar desde la consola y responden a cada apartado del proyecto. Están ordenados según las indicaciones y en el nombre esta el punto, apartado y punto que satisfacen (e.g A punto, 1 apartado, a punto):
+Names obey to a structure required by class project and follows the designation in order to run the entire program (e.g A/1/a designes the first part of the excercise of the point a. ):
+
   o	A1a_Genera_clave_simple.py: 
-    Ejecución en línea de comandos: >> Python A1a_Genera_clave_simple.py 
+   Terminal or CMD running as: 
+    >> Python A1a_Genera_clave_simple.py 
 
   o	A1bc_Generar_Clave_Cliente_aleatoria.py:
-    Ejecución en línea de comandos: 
+   Terminal or CMD running as:: 
 >> Python A1bc_Generar_Clave_Cliente_aleatoria.py
 
   o A1d_Creacion_Fichero_Paises.py:
-  Ejecución en línea de comandos:
+  Terminal or CMD running as::
  >> Python A1d_Creacion_Fichero_Paises.py
 
   o	A23_Generar_fichero_2020.py:
-  Ejecución en línea de comandos:
+  Terminal or CMD running as::
  >> Python A23_Generar_fichero_2020.py 5000
 
 Nota: En este caso 5000 es la variable del numero de registros que se quiera tener en el fichero. Debe ser un numero mayor de 0 y entero.
 
   o	A2a_Webscrapping.py:
-  Ejecución en línea de comandos: 
+Terminal or CMD running as:: 
 >> Python A2a_Webscrapping.py
 
   o	A2b_Elimina_palabras.py:
-  Ejecución en línea de comandos: 
+Terminal or CMD running as:: 
 >> Python A2b_Elimina_palabras.py
 
   o	A2c_Genera_Mensaje_Text.py
-  Ejecución en línea de comandos: 
+Terminal or CMD running as:: 
 >> Python A2c_Genera_Mensaje_Text.py
-Nota: En caso de recibir este error: 
+
+In case of error: 
 UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf3 in position 21: invalid continuation byte. 
-Por favor, introduzca en la línea 35 cambie el código por lo siguiente:
+Please, change in line 35 to:
    with open('Corpus_palabras.txt',encoding='UTF-8') as corpus:
 
-Esto se debe a que en mac no ejecuta sin tener este encoding pero en pc lo hace tal como esta el script. De forma auxiliar en la carpeta esta el script que incluye el encoding UTF-8 para ejecutar en mac.
-Tambien puede probar el fichero, A2c_Genera_Mensaje_Text._encoding.py tiene un try para escapar los problemas de codificación.
+In case of execute the program from encoding UTF-8 in MacOs computers. Assert and Try exception are included in the code to      avoid this problem: 
+   >>A2c_Genera_Mensaje_Text._encoding.py
 
   o	B4_Creacion_Matrices_Tarifas.py
-  Ejecución en línea de comandos: 
-o	>> Python B4_Creacion_Matrices_Tarifas.py
+  Terminal or CMD running as: 
+  >> Python B4_Creacion_Matrices_Tarifas.py
 
   o	B5_Generar_Minutos_Ingresos_Totales.py
-  Ejecución en línea de comandos: 
-  
-  o	>> Python B5_Generar_Minutos_Ingresos_Totales.py
+  Terminal or CMD running as: 
+  >> Python B5_Generar_Minutos_Ingresos_Totales.py
 
   o	B6a_MapReduce_MinutosTotales.py
-  Ejecución en línea de comandos: 
+    Terminal or CMD running as: 
   >> Python B6a_MapReduce_MinutosTotales.py llamadas2020.txt
 
   o	B6b_MapReduce_IngresosTotales.py
-  Ejecución en línea de comandos: 
+    Terminal or CMD running as: 
   >> Python B6b_MapReduce_IngresosTotales.py llamadas2020.txt
 
