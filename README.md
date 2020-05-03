@@ -4,7 +4,7 @@
   #### 1. NPL: Generate and analyze text from webscrapped words from wikipedia (WorldCom Project)
 
 ### Notebooks
-  #### 1.1. NPL: Python_WorldCom
+  #### 1.1. NPL: Python_WorldCom.ipynb
 
 ### Further Code and news
 
