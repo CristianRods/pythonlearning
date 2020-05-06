@@ -1,7 +1,8 @@
 ## My Python Learnings:
 
 ### Projects
-  #### 1. NPL: WorldCom CodeFiles (WorldCom Project all .py). 2. Deep Learning: Notebooks and dataset to work with Keras.
+  #### 1. NPL: WorldCom CodeFiles (WorldCom Project all .py). 
+  #### 2. Deep Learning: Notebooks and dataset to work with Keras.
 
 ### Notebooks
   #### 1.1. NPL: Python_WorldCom.ipynb
